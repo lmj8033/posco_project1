@@ -10,7 +10,7 @@ body{
 .topbackground>p {
     display: inline-block;
     font-size: small;
-    margin: 10px;
+    margin: 15px 10px;
     justify-content: space-evenly;
     font-family:'Poly',georgia,serif;
 
@@ -19,7 +19,7 @@ body{
 .topbackground>p1 {
     display: inline-block;
     font-size: small;
-    margin: 10px;
+    margin: 15px 10px;
     float: right;
     font-family: 'Poly',georgia,serif;
 }
@@ -40,6 +40,61 @@ h1{
   text-align: center;
   color: brown;
 }
+
+.springbackground {
+    width: 250px;
+    height: 280px;
+    background-image: url(./springback.jpg);
+    border-radius: 30%;
+    box-shadow: 5px 5px 35px 35px rgb(251, 226, 230);
+}
+.spring {
+    text-align: center;
+}
+
+.summerbackground {
+    width: 250px;
+    height: 280px;
+    background-image: url(./summerback.jpg);
+    border-radius: 30%;
+    box-shadow: 5px 5px 35px 35px rgb(181, 235, 249);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.summer {
+    text-align: center;
+}
+
+.fallbackground {
+    width: 250px;
+    height: 280px;
+    background-image: url(./fallback.jpg);
+    border-radius: 30%;
+    box-shadow: 5px 5px 35px 35px rgb(252, 216, 154);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fall {
+    text-align: center;
+}
+
+.winterbackground {
+    width: 250px;
+    height: 280px;
+    background-image: url(./winterback.jpg);
+    border-radius: 30%;
+    box-shadow: 5px 5px 35px 35px rgb(195, 217, 247);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.winter {
+    text-align: center;
+}
+
+
 .springminimer1:active{
 
 }
@@ -71,28 +126,19 @@ h1{
   height:280px;
   justify-content: space-evenly;
 }
+
 li{
   list-style: none;
+  text-align: center;
 }
+
 @font-face {
   font-family: 'twaysky';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
-/* .springbackground{
-  background: linear-gradient(rgb(250, 182, 193),rgb(249, 234, 236)); 
-  background-size:contain;
-} */
-.summerbackground{
 
-}
-.fallbackground{
-
-}
-.winterbackground{
-  
-}
 .spring{
   margin-top:15px;
   font-size: 30px;
