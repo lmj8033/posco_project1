@@ -1,0 +1,156 @@
+body{
+
+}
+.topbackground{
+    background-color: rgb(250, 206, 214);
+    height: 70px;
+    width: auto;
+}
+
+.topbackground>p {
+    display: inline-block;
+    font-size: small;
+    margin: 10px;
+    justify-content: space-evenly;
+    font-family:'Poly',georgia,serif;
+
+}
+
+.topbackground>p1 {
+    display: inline-block;
+    font-size: small;
+    margin: 10px;
+    float: right;
+    font-family: 'Poly',georgia,serif;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+.clothingon {
+    color: black;
+    text-align: center;
+    margin: 8px 0px;
+    font-size: 40px;
+    font-family: 'Poly',georgia,serif;
+}
+h1{
+  text-align: center;
+  color: brown;
+}
+.springminimer1:active{
+
+}
+.springminimer2:active{
+
+}
+.springminimer3:active{
+
+}
+.springminimer4:active{
+
+}
+.springeasy1:active{
+
+}
+.springeasy2:active{
+
+}
+.springeasy3:active{
+
+}
+.springeasy4:active{
+  
+}
+.menu{
+  display: flex;
+  width:auto;
+  margin-top:20px;
+  height:280px;
+  justify-content: space-evenly;
+}
+li{
+  list-style: none;
+}
+@font-face {
+  font-family: 'twaysky';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/* .springbackground{
+  background: linear-gradient(rgb(250, 182, 193),rgb(249, 234, 236)); 
+  background-size:contain;
+} */
+.summerbackground{
+
+}
+.fallbackground{
+
+}
+.winterbackground{
+  
+}
+.spring{
+  margin-top:15px;
+  font-size: 30px;
+  font-family: 'twaysky';
+}
+.summer{
+  margin-top:15px;
+  font-size: 30px;
+  font-family: 'twaysky';
+}
+.fall{
+  margin-top:15px;
+  font-size: 30px;
+  font-family: 'twaysky';
+}
+.winter{
+  margin-top:15px;
+  font-size: 30px;
+  font-family: 'twaysky';
+}
+.spring #list1{
+  padding: 10px;
+  font-size: 20px;
+}
+.summer #list2{
+  padding: 10px;
+  font-size: 20px;
+}
+.fall #list3{
+  padding: 10px;
+  font-size: 20px;
+}
+.winter #list4{
+  padding: 10px;
+  font-size: 20px;
+}
+.minimer{
+  padding: 5px 0px;
+  font-size: 20px;
+  font-family: 'twaysky';
+}
+.easy{
+  padding: 5px 0px;
+  font-size: 20px;
+  font-family: 'twaysky';
+}
+.street{
+  padding: 5px 0px;
+  font-size: 20px;
+  font-family: 'twaysky';
+}
+.amacage{
+  padding: 5px 0px;
+  font-size: 20px;
+  font-family: 'twaysky';
+}
+.luxuary{
+  padding: 5px 0px;
+  font-size: 20px;
+  font-family: 'twaysky';
+}
