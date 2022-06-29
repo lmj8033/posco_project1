@@ -1,7 +1,5 @@
-body{
-
-}
-.topbackground{
+/* 공통 CSS */
+.topbackground {
     background-color: rgb(250, 206, 214);
     height: 70px;
     width: auto;
@@ -12,7 +10,7 @@ body{
     font-size: small;
     margin: 15px 10px;
     justify-content: space-evenly;
-    font-family:'Poly',georgia,serif;
+    font-family: 'Poly', georgia, serif;
 
 }
 
@@ -21,7 +19,7 @@ body{
     font-size: small;
     margin: 15px 10px;
     float: right;
-    font-family: 'Poly',georgia,serif;
+    font-family: 'Poly', georgia, serif;
 }
 
 a {
@@ -34,169 +32,108 @@ a {
     text-align: center;
     margin: 8px 0px;
     font-size: 40px;
-    font-family: 'Poly',georgia,serif;
-}
-h1{
-  text-align: center;
-  color: brown;
+    font-family: 'Poly', georgia, serif;
 }
 
-.springbackground {
-    width: 250px;
-    height: 280px;
-    background-image: url(./springback.jpg);
-    border-radius: 30%;
-    box-shadow: 5px 5px 35px 35px rgb(251, 226, 230);
-}
-.spring {
+h1 {
     text-align: center;
+    color: brown;
 }
 
-.summerbackground {
-    width: 250px;
-    height: 280px;
-    background-image: url(./summerback.jpg);
-    border-radius: 30%;
-    box-shadow: 5px 5px 35px 35px rgb(181, 235, 249);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.summer {
-    text-align: center;
-}
-
-.fallbackground {
-    width: 250px;
-    height: 280px;
-    background-image: url(./fallback.jpg);
-    border-radius: 30%;
-    box-shadow: 5px 5px 35px 35px rgb(252, 216, 154);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.fall {
-    text-align: center;
-}
-
-.winterbackground {
-    width: 250px;
-    height: 280px;
-    background-image: url(./winterback.jpg);
-    border-radius: 30%;
-    box-shadow: 5px 5px 35px 35px rgb(195, 217, 247);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.winter {
-    text-align: center;
-}
-
-
-.springminimer1:active{
-
-}
-.springminimer2:active{
-
-}
-.springminimer3:active{
-
-}
-.springminimer4:active{
-
-}
-.springeasy1:active{
-
-}
-.springeasy2:active{
-
-}
-.springeasy3:active{
-
-}
-.springeasy4:active{
-  
-}
-.menu{
-  display: flex;
-  width:auto;
-  margin-top:20px;
-  height:280px;
-  justify-content: space-evenly;
-}
-
-li{
-  list-style: none;
-  text-align: center;
+.season {
+    display: flex;
 }
 
 @font-face {
-  font-family: 'twaysky';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'twaysky';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.spring{
-  margin-top:15px;
-  font-size: 30px;
-  font-family: 'twaysky';
+li {
+    list-style: none;
 }
-.summer{
-  margin-top:15px;
-  font-size: 30px;
-  font-family: 'twaysky';
+
+/* #list1>li,
+#list2>li,
+#list3>li,
+#list4>li {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: 'twaysky';
+} */
+
+.menubackground {
+    display: flex;
 }
-.fall{
-  margin-top:15px;
-  font-size: 30px;
-  font-family: 'twaysky';
+
+.bestbackground {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* margin-top: 300px; */
 }
-.winter{
-  margin-top:15px;
-  font-size: 30px;
-  font-family: 'twaysky';
+
+.bestbackground>img {
+    padding: 10px;
 }
-.spring #list1{
-  padding: 10px;
-  font-size: 20px;
+
+.footer {
+    position: fixed;
+    line-height: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    bottom: 0;
 }
-.summer #list2{
-  padding: 10px;
-  font-size: 20px;
+
+@font-face {
+    font-family: 'twaysky';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
-.fall #list3{
-  padding: 10px;
-  font-size: 20px;
+
+.bottombackground {
+    opacity: 0.5;
+    padding: 0px 50px;
+    text-align: center;
+    line-height: 50px;
 }
-.winter #list4{
-  padding: 10px;
-  font-size: 20px;
+
+.bottombackground2 {
+    display: inline-flex;
+    background-color: rgb(250, 206, 214);
+    height: 50px;
+    width: 100%;
+    bottom: 10px;
+    opacity: 0.7;
+    bottom: 10px;
+    text-align: center;
+    align-items: center;
+    line-height: 50px;
+    justify-content: center;
+    bottom: 0;
 }
-.minimer{
-  padding: 5px 0px;
-  font-size: 20px;
-  font-family: 'twaysky';
+
+span {
+    display: inline;
+    font-size: small;
+    margin: 10px;
+    justify-content: space-evenly;
+    font-family: 'Poly', georgia, serif;
+    font-size: 10px;
+    cursor: pointer;
 }
-.easy{
-  padding: 5px 0px;
-  font-size: 20px;
-  font-family: 'twaysky';
+
+.right_message {
+    float: right;
 }
-.street{
-  padding: 5px 0px;
-  font-size: 20px;
-  font-family: 'twaysky';
-}
-.amacage{
-  padding: 5px 0px;
-  font-size: 20px;
-  font-family: 'twaysky';
-}
-.luxuary{
-  padding: 5px 0px;
-  font-size: 20px;
-  font-family: 'twaysky';
+
+.kakao {
+    transform: translate(10px );
 }

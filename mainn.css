@@ -1,0 +1,162 @@
+body {}
+
+.topbackground {
+  background-color: rgb(250, 206, 214);
+  height: 70px;
+  width: auto;
+}
+
+.topbackground>p {
+  display: inline-block;
+  font-size: small;
+  margin: 15px 10px;
+  justify-content: space-evenly;
+  font-family: 'Poly', georgia, serif;
+
+}
+
+.topbackground>p1 {
+  display: inline-block;
+  font-size: small;
+  margin: 15px 10px;
+  float: right;
+  font-family: 'Poly', georgia, serif;
+}
+
+a {
+  text-decoration: none;
+  color: black
+}
+
+.clothingon {
+  color: black;
+  text-align: center;
+  margin: 8px 0px;
+  font-size: 40px;
+  font-family: 'Poly', georgia, serif;
+}
+
+h1 {
+  text-align: center;
+  color: brown;
+}
+
+.springbackground {
+  width: 250px;
+  height: 280px;
+  background-image: url(./springback.jpg);
+  border-radius: 30%;
+  box-shadow: 5px 5px 35px 35px rgb(251, 226, 230);
+}
+
+.spring {
+  text-align: center;
+}
+
+.summerbackground {
+  width: 250px;
+  height: 280px;
+  background-image: url(./summerback.jpg);
+  border-radius: 30%;
+  box-shadow: 5px 5px 35px 35px rgb(181, 235, 249);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.summer {
+  text-align: center;
+}
+
+.fallbackground {
+  width: 250px;
+  height: 280px;
+  background-color: rgb(244, 203, 128);
+  /* background-image: url(./fallback.jpg); */
+  border-radius: 30%;
+  box-shadow: 5px 5px 35px 35px rgb(252, 216, 154);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fall {
+  text-align: center;
+}
+
+.winterbackground {
+  width: 250px;
+  height: 280px;
+  background-color: rgb(181, 227, 245);
+  /* background-image: url(./winterback.jpg); */
+  border-radius: 30%;
+  box-shadow: 5px 5px 35px 35px rgb(195, 217, 247);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.winter {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  width: auto;
+  margin-top: 20px;
+  height: 280px;
+  justify-content: space-evenly;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+
+}
+
+@font-face {
+  font-family: 'twaysky';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bottombackground {
+
+  opacity: 0.5;
+  padding: 0px 50px;
+  text-align: center;
+  position:fixed;
+  line-height: 50px;
+
+}
+
+.bottombackground2 {
+  display: inline-flex;
+  background-color: rgb(250, 206, 214);
+  height: 50px;
+  width: 100%;
+  bottom: 10px;
+  opacity: 0.7;
+  bottom: 10px;
+  text-align: center;
+  align-items: center;
+  line-height: 50px;
+  justify-content: center;
+  bottom: 0;
+}
+
+span {
+  display: inline;
+  font-size: small;
+  margin: 10px;
+  justify-content: space-evenly;
+  font-family: 'Poly', georgia, serif;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.right_message {
+  display: flex;
+  float: right;
+}
